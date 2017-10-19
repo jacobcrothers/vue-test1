@@ -20,3 +20,5 @@ docker build -t node.js-server-vue.js .
 # start the container at localhost:3000
 docker run -it -p3000:3000 node.js-server-vue.js:latest
 ```
+
+Now you can open the browser with: http://localhost:3000/main
